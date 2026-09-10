@@ -1,0 +1,46 @@
+.navbar-brand{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(248, 202, 62);
+}
+
+.container-fluid{
+    padding: auto;
+    background-color: blue;
+}
+
+.nav-item{
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover{
+    background-color: rgb(248, 202, 62);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.navbar .nav-link{
+    color:white;
+}
+
+.dropdown-item{
+    background-color:blue ;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(248, 202, 62);
+    transition: background-color 0.4s ease;
+}
+
+.btn{
+    mix-blend-mode: normal;
+    background-color: rgb(248, 202, 62);
+    size: 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(253, 215, 0);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
