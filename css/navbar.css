@@ -44,6 +44,15 @@
     transition: transform 0.3s ease;
 }
 
+.login-card .btn{
+    margin-left: 0.7rem;
+}
+
+.login-card a{
+    color: white;
+    text-decoration: none;
+}
+
 /*Arregla Posicionamiento del dropdown bajo el carousel*/
 .navbar {
   position: relative;
