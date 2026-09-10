@@ -18,9 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&display=swap" rel="stylesheet">
     <!--Fuentes de iconos-->
-    <script src="https://kit.fontawesome.com/e97834cc12.js" crossorigin="anonymous"></script>       
+    <script src="https://kit.fontawesome.com/e97834cc12.js" crossorigin="anonymous"></script>
 </head>
 <!--Cuerpo de la pagina-->
+
 <body>
     <!--Cabecera del contenido -->
     <header>
@@ -32,7 +33,9 @@
                     BLOCKBUSTERDIGITAL
                 </a>
                 <!--Boton Hamburguesa para dispositivos movil-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Menu Despegable">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Menu Despegable">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -89,13 +92,15 @@
     <!--Cuerpo del contenido-->
     <main>
         <section>
+            <!--Titulo del carousel-->
             <div class="titulo">
-                <h1>Productos destacados</h1>
+                <h1>Novedades del Mes</h1>
             </div>
             <div id="carousel" class="carousel slide">
                 <!--Botones de indicador de posicion de carousel-->
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -118,7 +123,7 @@
                             <div class="caption-box">
                                 <h5>Insidius</h5>
                                 <p>Terror</p>
-                            </div>    
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -145,7 +150,7 @@
                             <div class="caption-box">
                                 <h5>Pressure</h5>
                                 <p>Accion</p>
-                            </div>    
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -160,6 +165,207 @@
                     <i id="slide-next" class="fa-solid fa-chevron-right" aria-hidden="true"></i>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <!--Titulo-->
+            <h2 class="text-center mb-4">Peliculas</h2>
+            <!--Fila de las tarjetas-->
+            <div class="row g-4 justify-content-center">
+                <!--Productos-->
+                <!--Producto 1-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product1.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">The Mandalorian & Grogu</h5>
+                            <p class="card-text text-muted">La exitosa serie de Star Wars da el salto a la pantalla
+                                grande. La historia sigue al cazarrecompensas Din Djarin y a su pequeño compañero en una
+                                nueva y peligrosa misión a través de la galaxia</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 2-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product2.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Avengers: Doomsday</h5>
+                            <p class="card-text text-muted">Los Vengadores se reúnen nuevamente para enfrentar una de
+                                sus mayores amenazas multiversales, marcando el regreso de Robert Downey Jr. al universo
+                                Marvel, esta vez bajo la máscara del icónico villano Doctor Doom</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 3-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product3.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Dune: Messiah (Parte 3)</h5>
+                            <p class="card-text text-muted">Dirigida por Denis Villeneuve, concluye la trilogía de Paul
+                                Atreides. Ahora como Emperador, Paul debe lidiar con las terribles consecuencias de la
+                                guerra santa desatada en su nombre.</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 4-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product4.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Proyecto Salvación (Project Hail Mary)</h5>
+                            <p class="card-text text-muted">Basada en la novela del autor de The Martian y protagonizada
+                                por Ryan Gosling, narra la historia de un astronauta solitario que despierta con amnesia
+                                y debe usar la ciencia para salvar a la Tierra de la extinción</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 5-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product5.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">The Batman: Part II</h5>
+                            <p class="card-text text-muted">Robert Pattinson regresa como el Caballero de la Noche en
+                                esta secuela dirigida por Matt Reeves, que continúa explorando el lado más detectivesco,
+                                oscuro y corrupto de Gotham City.</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 6-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product6.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Shrek 5</h5>
+                            <p class="card-text text-muted">El ogro más famoso del cine regresa tras años de ausencia
+                                junto a Fiona, Burro y el Gato con Botas en una nueva e irreverente aventura familiar.
+                            </p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 7-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product7.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Super Mario Bros. La Película 2</h5>
+                            <p class="card-text text-muted">Nintendo e Illumination se alían de nuevo para expandir el
+                                universo del fontanero, introduciendo nuevos mundos cinematográficos y personajes
+                                clásicos de la franquicia de videojuegos</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 8-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product8.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Avatar 3 (Fire and Ash)</h5>
+                            <p class="card-text text-muted">James Cameron expande el universo de Pandora presentando a
+                                la "Gente de la Ceniza", una tribu de Na'vi mucho más agresiva y vinculada al elemento
+                                del fuego.</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 9-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product9.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">La Odisea</h5>
+                            <p class="card-text text-muted">El aclamado director regresa con un thriller de alta tensión
+                                que combina elementos de misterio y espionaje, protagonizado por Matt Damon y Tom
+                                Holland</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 10-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product10.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Moana (Live-Action)</h5>
+                            <p class="card-text text-muted">La adaptación en acción real del clásico animado de Disney,
+                                que vuelve a contar con Dwayne Johnson en el papel del semidiós Maui, recreando los
+                                paisajes mágicos y la música de la Polinesia</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 11-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product11.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">The Weapon</h5>
+                            <p class="card-text text-muted">Una intensa cinta de acción y suspenso donde un agente de
+                                operaciones encubiertas debe rescatar a su familia tras verse atrapado en una
+                                conspiración global de alto nivel</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Producto 12-->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 shadows-sm">
+                        <img src="img/products/product12.jpg" alt="...">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Toy Story 5</h5>
+                            <p class="card-text text-muted">Los juguetes de Pixar regresan para una quinta entrega que
+                                explora cómo Woody, Buzz y sus amigos se enfrentan a la era tecnológica y la obsesión de
+                                los niños modernos con las pantallas</p>
+                            <div class="mt-auto">
+                                <span class="d-block fw-bold fs-5 mb-2">$12.990</span>
+                                <a href="#" class="btn w-100">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
