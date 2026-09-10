@@ -6,7 +6,6 @@
 }
 
 .container-fluid{
-    padding: auto;
     background-color: blue;
 }
 
@@ -43,4 +42,14 @@
     background-color: rgb(253, 215, 0);
     transform: scale(1.1);
     transition: transform 0.3s ease;
+}
+
+/*Arregla Posicionamiento del dropdown bajo el carousel*/
+.navbar {
+  position: relative;
+  z-index: 1050 !important;
+}
+
+.navbar .dropdown-menu {
+  z-index: 1060 !important;
 }

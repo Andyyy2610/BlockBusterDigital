@@ -10,22 +10,24 @@
     <!--Adiciones de bibliotecas y librerias de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <!--Fuentes externas para texto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-        
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&display=swap" rel="stylesheet">
+    <!--Fuentes de iconos-->
+    <script src="https://kit.fontawesome.com/e97834cc12.js" crossorigin="anonymous"></script>       
 </head>
 <!--Cuerpo de la pagina-->
-
 <body>
     <!--Cabecera del contenido -->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/Blockbuster_logo.svg.webp" alt="Logo" width="74" height="48"
+                    <img src="img/brand/Blockbuster_logo.svg.webp" alt="Logo" width="74" height="48"
                         class="d-inline-block align-text-top">
                     BLOCKBUSTERDIGITAL
                 </a>
@@ -86,7 +88,80 @@
     </header>
     <!--Cuerpo del contenido-->
     <main>
-
+        <section>
+            <div class="titulo">
+                <h1>Productos destacados</h1>
+            </div>
+            <div id="carousel" class="carousel slide">
+                <!--Botones de indicador de posicion de carousel-->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <!--Items del carousel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel/carousel1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="caption-box">
+                                <h5>Coyote vs Acme</h5>
+                                <p>Animacion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/carousel2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="caption-box">
+                                <h5>Insidius</h5>
+                                <p>Terror</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/carousel3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="caption-box">
+                                <h5>La muerte de Robin Hood</h5>
+                                <p>Fantasia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/carousel4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="caption-box">
+                                <h5>Final de la calle Oak</h5>
+                                <p>Aventura</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/carousel5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="caption-box">
+                                <h5>Pressure</h5>
+                                <p>Accion</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <!--Botones-->
+                <!--Boton previo-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <i id="slide-prev" class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <!--Boton siguiente-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <i id="slide-next" class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
     </main>
 
     <!--Pie de pagina-->
